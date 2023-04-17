@@ -9,6 +9,7 @@
     --next-pages-color: #afb2ba;
     --bg-menu: #f3f4f6;
     --bg-active-page: #f4faf8;
+    --bg-footer: #1d2128;
 }
 
 html {
@@ -36,7 +37,7 @@ a {
 }
 
 .bgr-primary {
-    background: var(--primary-color);
+    background: var(--primary-color) !important;
 }
 
 .bgr-menu {
@@ -45,6 +46,10 @@ a {
 
 .bgr-active-page {
     background: var(--bg-active-page);
+}
+
+.bgr-footer {
+    background: var(--bg-footer) !important;
 }
 
 /* Header */
@@ -109,4 +114,17 @@ a {
 
 .new__seller::after {
     content: "New";
+}
+
+/* Footer */
+.footer {
+    margin-top: 90px;
+    padding: 110px 0;
+}
+
+.footer ul li a {
+    display: inline-block;
+    color: #babdc3;
+    font-size: 15px;
+    padding-bottom: 15px;
 }
