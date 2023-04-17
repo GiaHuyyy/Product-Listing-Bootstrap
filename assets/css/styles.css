@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;  
+}
+
+body {
+    font-family: sans-serif, serif;
+    /* Tối ưu tốc độ hiển thị hình ảnh */
+    text-rendering: optimizeSpeed;
+}
+
+/* Header */
+.header-container {
+    margin: 0 160px;
+}
+
+.h-70 {
+    height: 66px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.no-outline {
+    outline: none;
+}
