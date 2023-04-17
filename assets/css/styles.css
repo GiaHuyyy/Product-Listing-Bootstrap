@@ -20,7 +20,11 @@ body {
 }
 
 .h-70 {
-    height: 66px;
+    height: 68px;
+}
+
+.h-400 {
+    height: 400px;
 }
 
 .logo {
@@ -29,4 +33,14 @@ body {
 
 .no-outline {
     outline: none;
+}
+
+/* Banner */
+.banner .background__contend {
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
